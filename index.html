@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>Truth or Dare!</h1>
+    </div>
+    <div class="btn-containers">
+      <div class="btn-1">
+        <button onclick="fetchTruth()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Truth</span>
+        </button>
+      </div>
+      <div class="btn-2">
+        <button onclick="fetchDare()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Dare</span>
+        </button>
+      </div>
+      <div class="btn-3">
+        <button onclick="fetchTruthOrDare()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>Random</span>
+        </button>
+      </div>
+    </div>
+    <div class="loader-container" id="loader">
+      <div class="🤚">
+        <div class="👉"></div>
+        <div class="👉"></div>
+        <div class="👉"></div>
+        <div class="👉"></div>
+        <div class="🌴"></div>
+        <div class="👍"></div>
+      </div>
+    </div>
+
+    <h1 id="question"></h1>
+  </body>
+  <script src="index.js"></script>
+</html>
